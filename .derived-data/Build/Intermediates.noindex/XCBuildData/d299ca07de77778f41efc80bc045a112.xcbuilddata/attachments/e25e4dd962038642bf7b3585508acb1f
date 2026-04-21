@@ -1,0 +1,169 @@
+{
+  "" : {
+    "diagnostics" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/ShotX-primary.dia",
+    "emit-module-dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/ShotX-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/ShotX-primary-emit-module.dia",
+    "pch" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/ShotX-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/ShotX-primary.swiftdeps"
+  },
+  "/Users/lynx/workspaces/shotx-by-lyn/ShotX/AppDelegate.swift" : {
+    "const-values" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/AppDelegate.d",
+    "diagnostics" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/AppDelegate.dia",
+    "index-unit-output-path" : "/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/AppDelegate.o",
+    "swift-dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/AppDelegate.swiftdeps",
+    "swiftmodule" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/AppDelegate~partial.swiftmodule"
+  },
+  "/Users/lynx/workspaces/shotx-by-lyn/ShotX/Controllers/CaptureCoordinator.swift" : {
+    "const-values" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/CaptureCoordinator.swiftconstvalues",
+    "dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/CaptureCoordinator.d",
+    "diagnostics" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/CaptureCoordinator.dia",
+    "index-unit-output-path" : "/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/CaptureCoordinator.o",
+    "llvm-bc" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/CaptureCoordinator.bc",
+    "object" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/CaptureCoordinator.o",
+    "swift-dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/CaptureCoordinator.swiftdeps",
+    "swiftmodule" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/CaptureCoordinator~partial.swiftmodule"
+  },
+  "/Users/lynx/workspaces/shotx-by-lyn/ShotX/Controllers/DraggablePreviewViews.swift" : {
+    "const-values" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/DraggablePreviewViews.swiftconstvalues",
+    "dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/DraggablePreviewViews.d",
+    "diagnostics" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/DraggablePreviewViews.dia",
+    "index-unit-output-path" : "/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/DraggablePreviewViews.o",
+    "llvm-bc" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/DraggablePreviewViews.bc",
+    "object" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/DraggablePreviewViews.o",
+    "swift-dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/DraggablePreviewViews.swiftdeps",
+    "swiftmodule" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/DraggablePreviewViews~partial.swiftmodule"
+  },
+  "/Users/lynx/workspaces/shotx-by-lyn/ShotX/Controllers/MenuBarController.swift" : {
+    "const-values" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/MenuBarController.swiftconstvalues",
+    "dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/MenuBarController.d",
+    "diagnostics" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/MenuBarController.dia",
+    "index-unit-output-path" : "/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/MenuBarController.o",
+    "llvm-bc" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/MenuBarController.bc",
+    "object" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/MenuBarController.o",
+    "swift-dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/MenuBarController.swiftdeps",
+    "swiftmodule" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/MenuBarController~partial.swiftmodule"
+  },
+  "/Users/lynx/workspaces/shotx-by-lyn/ShotX/Controllers/PreviewWindowController+CompactPreview.swift" : {
+    "const-values" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PreviewWindowController+CompactPreview.swiftconstvalues",
+    "dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PreviewWindowController+CompactPreview.d",
+    "diagnostics" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PreviewWindowController+CompactPreview.dia",
+    "index-unit-output-path" : "/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PreviewWindowController+CompactPreview.o",
+    "llvm-bc" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PreviewWindowController+CompactPreview.bc",
+    "object" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PreviewWindowController+CompactPreview.o",
+    "swift-dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PreviewWindowController+CompactPreview.swiftdeps",
+    "swiftmodule" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PreviewWindowController+CompactPreview~partial.swiftmodule"
+  },
+  "/Users/lynx/workspaces/shotx-by-lyn/ShotX/Controllers/PreviewWindowController+Editor.swift" : {
+    "const-values" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PreviewWindowController+Editor.swiftconstvalues",
+    "dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PreviewWindowController+Editor.d",
+    "diagnostics" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PreviewWindowController+Editor.dia",
+    "index-unit-output-path" : "/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PreviewWindowController+Editor.o",
+    "llvm-bc" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PreviewWindowController+Editor.bc",
+    "object" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PreviewWindowController+Editor.o",
+    "swift-dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PreviewWindowController+Editor.swiftdeps",
+    "swiftmodule" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PreviewWindowController+Editor~partial.swiftmodule"
+  },
+  "/Users/lynx/workspaces/shotx-by-lyn/ShotX/Controllers/PreviewWindowController.swift" : {
+    "const-values" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PreviewWindowController.swiftconstvalues",
+    "dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PreviewWindowController.d",
+    "diagnostics" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PreviewWindowController.dia",
+    "index-unit-output-path" : "/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PreviewWindowController.o",
+    "llvm-bc" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PreviewWindowController.bc",
+    "object" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PreviewWindowController.o",
+    "swift-dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PreviewWindowController.swiftdeps",
+    "swiftmodule" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PreviewWindowController~partial.swiftmodule"
+  },
+  "/Users/lynx/workspaces/shotx-by-lyn/ShotX/Controllers/SelectionOverlayController.swift" : {
+    "const-values" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/SelectionOverlayController.swiftconstvalues",
+    "dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/SelectionOverlayController.d",
+    "diagnostics" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/SelectionOverlayController.dia",
+    "index-unit-output-path" : "/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/SelectionOverlayController.o",
+    "llvm-bc" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/SelectionOverlayController.bc",
+    "object" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/SelectionOverlayController.o",
+    "swift-dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/SelectionOverlayController.swiftdeps",
+    "swiftmodule" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/SelectionOverlayController~partial.swiftmodule"
+  },
+  "/Users/lynx/workspaces/shotx-by-lyn/ShotX/Controllers/SettingsWindowController.swift" : {
+    "const-values" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/SettingsWindowController.swiftconstvalues",
+    "dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/SettingsWindowController.d",
+    "diagnostics" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/SettingsWindowController.dia",
+    "index-unit-output-path" : "/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/SettingsWindowController.o",
+    "llvm-bc" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/SettingsWindowController.bc",
+    "object" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/SettingsWindowController.o",
+    "swift-dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/SettingsWindowController.swiftdeps",
+    "swiftmodule" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/SettingsWindowController~partial.swiftmodule"
+  },
+  "/Users/lynx/workspaces/shotx-by-lyn/ShotX/Services/ClipboardService.swift" : {
+    "const-values" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/ClipboardService.swiftconstvalues",
+    "dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/ClipboardService.d",
+    "diagnostics" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/ClipboardService.dia",
+    "index-unit-output-path" : "/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/ClipboardService.o",
+    "llvm-bc" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/ClipboardService.bc",
+    "object" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/ClipboardService.o",
+    "swift-dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/ClipboardService.swiftdeps",
+    "swiftmodule" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/ClipboardService~partial.swiftmodule"
+  },
+  "/Users/lynx/workspaces/shotx-by-lyn/ShotX/Services/HotkeyManager.swift" : {
+    "const-values" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/HotkeyManager.swiftconstvalues",
+    "dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/HotkeyManager.d",
+    "diagnostics" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/HotkeyManager.dia",
+    "index-unit-output-path" : "/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/HotkeyManager.o",
+    "llvm-bc" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/HotkeyManager.bc",
+    "object" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/HotkeyManager.o",
+    "swift-dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/HotkeyManager.swiftdeps",
+    "swiftmodule" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/HotkeyManager~partial.swiftmodule"
+  },
+  "/Users/lynx/workspaces/shotx-by-lyn/ShotX/Services/PermissionService.swift" : {
+    "const-values" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PermissionService.swiftconstvalues",
+    "dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PermissionService.d",
+    "diagnostics" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PermissionService.dia",
+    "index-unit-output-path" : "/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PermissionService.o",
+    "llvm-bc" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PermissionService.bc",
+    "object" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PermissionService.o",
+    "swift-dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PermissionService.swiftdeps",
+    "swiftmodule" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/PermissionService~partial.swiftmodule"
+  },
+  "/Users/lynx/workspaces/shotx-by-lyn/ShotX/Services/ScreenshotService.swift" : {
+    "const-values" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/ScreenshotService.swiftconstvalues",
+    "dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/ScreenshotService.d",
+    "diagnostics" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/ScreenshotService.dia",
+    "index-unit-output-path" : "/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/ScreenshotService.o",
+    "llvm-bc" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/ScreenshotService.bc",
+    "object" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/ScreenshotService.o",
+    "swift-dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/ScreenshotService.swiftdeps",
+    "swiftmodule" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/ScreenshotService~partial.swiftmodule"
+  },
+  "/Users/lynx/workspaces/shotx-by-lyn/ShotX/Services/SettingsService.swift" : {
+    "const-values" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/SettingsService.swiftconstvalues",
+    "dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/SettingsService.d",
+    "diagnostics" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/SettingsService.dia",
+    "index-unit-output-path" : "/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/SettingsService.o",
+    "llvm-bc" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/SettingsService.bc",
+    "object" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/SettingsService.o",
+    "swift-dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/SettingsService.swiftdeps",
+    "swiftmodule" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/SettingsService~partial.swiftmodule"
+  },
+  "/Users/lynx/workspaces/shotx-by-lyn/ShotX/Views/ScreenshotCanvasView.swift" : {
+    "const-values" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/ScreenshotCanvasView.swiftconstvalues",
+    "dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/ScreenshotCanvasView.d",
+    "diagnostics" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/ScreenshotCanvasView.dia",
+    "index-unit-output-path" : "/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/ScreenshotCanvasView.o",
+    "llvm-bc" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/ScreenshotCanvasView.bc",
+    "object" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/ScreenshotCanvasView.o",
+    "swift-dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/ScreenshotCanvasView.swiftdeps",
+    "swiftmodule" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/ScreenshotCanvasView~partial.swiftmodule"
+  },
+  "/Users/lynx/workspaces/shotx-by-lyn/ShotX/main.swift" : {
+    "const-values" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/main.swiftconstvalues",
+    "dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/main.d",
+    "diagnostics" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/main.dia",
+    "index-unit-output-path" : "/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/main.o",
+    "llvm-bc" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/main.bc",
+    "object" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/main.o",
+    "swift-dependencies" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/main.swiftdeps",
+    "swiftmodule" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/ShotX.build/Debug/ShotX.build/Objects-normal/arm64/main~partial.swiftmodule"
+  }
+}

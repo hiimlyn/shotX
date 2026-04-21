@@ -1,0 +1,68 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "51ad1e17230231d7365c530952cf51625d8e059a06d8f8001828865b420ebda5"
+    }
+  ],
+  "containerPath" : "/Users/lynx/workspaces/shotx-by-lyn/ShotX.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "hostTargetedPlatform" : null,
+      "platform" : "macosx",
+      "sdk" : "macosx26.4",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Products",
+      "derivedDataPath" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data",
+      "indexDataStoreFolderPath" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/lynx/workspaces/shotx-by-lyn/.derived-data/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "CODE_SIGN_IDENTITY" : "-",
+          "CODE_SIGN_STYLE" : "Manual",
+          "DEVELOPMENT_TEAM" : "",
+          "OTHER_CODE_SIGN_FLAGS" : "--requirements /Users/lynx/workspaces/shotx-by-lyn/ShotX/DevCodeSigning.requirements"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
