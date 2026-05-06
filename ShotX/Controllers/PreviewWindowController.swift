@@ -20,6 +20,7 @@ final class PreviewWindowController: NSWindowController {
     let detailField = NSTextField(labelWithString: "Ready to preview or save")
     let canvasView = ScreenshotCanvasView()
     private let settingsService: SettingsService
+    var annotationToolButtons: [NSButton] = []
 
     var editorWindow: NSWindow?
     var compactPreviewWasMoved = false
@@ -53,6 +54,7 @@ final class PreviewWindowController: NSWindowController {
     func show(image: NSImage) {
         lastImage = image
         thumbnailImageView.image = image
+        canvasView.clearAnnotations()
         canvasView.image = image
         detailField.stringValue = "Ready to preview or save"
 
@@ -77,6 +79,7 @@ final class PreviewWindowController: NSWindowController {
         let editorWindow = editorWindow ?? makeEditorWindow()
         editorWindow.setFrame(Self.editorFrame(), display: true)
         editorWindow.makeKeyAndOrderFront(nil)
+        editorWindow.makeFirstResponder(canvasView)
         NSApp.activate(ignoringOtherApps: true)
     }
 
@@ -137,6 +140,54 @@ final class PreviewWindowController: NSWindowController {
         default:
             break
         }
+    }
+
+    @objc func annotationToolChanged(_ sender: NSButton) {
+        canvasView.selectedAnnotationTool = ScreenshotCanvasView.AnnotationTool(rawValue: sender.tag) ?? .none
+        updateAnnotationToolButtonStates(selectedTag: sender.tag)
+    }
+
+    private func updateAnnotationToolButtonStates(selectedTag: Int) {
+        for button in annotationToolButtons {
+            let isSelected = button.tag == selectedTag
+            button.state = isSelected ? .on : .off
+            button.image = isSelected ? NSImage(systemSymbolName: "checkmark", accessibilityDescription: "Selected") : nil
+        }
+    }
+
+    @objc func annotationColorChanged(_ sender: NSButton) {
+        switch sender.tag {
+        case 1:
+            canvasView.annotationColor = .systemRed
+        case 2:
+            canvasView.annotationColor = .systemYellow
+        case 3:
+            canvasView.annotationColor = .systemBlue
+        case 4:
+            canvasView.annotationColor = .systemGreen
+        case 5:
+            canvasView.annotationColor = .black
+        case 6:
+            canvasView.annotationColor = .white
+        default:
+            break
+        }
+    }
+
+    @objc func annotationWidthChanged(_ sender: NSSlider) {
+        canvasView.annotationLineWidth = CGFloat(sender.doubleValue)
+    }
+
+    @objc func undoAnnotation() {
+        canvasView.undoLastAnnotation()
+    }
+
+    @objc func redoAnnotation() {
+        canvasView.redoLastAnnotation()
+    }
+
+    @objc func clearAnnotations() {
+        canvasView.clearAnnotations()
     }
 
     private func positionCompactWindow() {

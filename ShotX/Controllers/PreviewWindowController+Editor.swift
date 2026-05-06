@@ -70,6 +70,8 @@ extension PreviewWindowController {
 
         content.addArrangedSubview(presetField)
         content.addArrangedSubview(Self.separator())
+        content.addArrangedSubview(makeAnnotationSection())
+        content.addArrangedSubview(Self.separator())
         content.addArrangedSubview(makeSliderRow(title: "Padding", value: 0.28, tag: 1))
         content.addArrangedSubview(makeSliderRow(title: "Inset", value: 0.10, tag: 2))
         content.addArrangedSubview(makeDualSliderRow())
@@ -124,6 +126,111 @@ extension PreviewWindowController {
         radius.widthAnchor.constraint(equalToConstant: 121).isActive = true
         shadow.widthAnchor.constraint(equalToConstant: 121).isActive = true
 
+        return stack
+    }
+
+    private func makeAnnotationSection() -> NSView {
+        let label = NSTextField(labelWithString: "Annotate")
+        label.font = .systemFont(ofSize: 14, weight: .medium)
+
+        let tools: [(String, Int)] = [
+            ("Draw", 1),
+            ("Highlight", 2),
+            ("Censor", 3),
+            ("Rect", 4),
+            ("Oval", 5),
+            ("Arrow", 6)
+        ]
+        annotationToolButtons.removeAll()
+        for tool in tools {
+            let button = pillButton(title: tool.0, tag: tool.1, action: #selector(annotationToolChanged(_:)))
+            annotationToolButtons.append(button)
+        }
+
+        let toolGrid = NSStackView()
+        toolGrid.orientation = .vertical
+        toolGrid.alignment = .leading
+        toolGrid.spacing = 6
+        for rowIndex in 0..<2 {
+            let row = NSStackView()
+            row.orientation = .horizontal
+            row.alignment = .centerY
+            row.spacing = 6
+
+            for columnIndex in 0..<3 {
+                row.addArrangedSubview(annotationToolButtons[rowIndex * 3 + columnIndex])
+            }
+
+            toolGrid.addArrangedSubview(row)
+        }
+
+        let colorRow = NSStackView()
+        colorRow.orientation = .horizontal
+        colorRow.spacing = 6
+
+        let colors: [(NSColor, Int)] = [
+            (.systemRed, 1),
+            (.systemYellow, 2),
+            (.systemBlue, 3),
+            (.systemGreen, 4),
+            (.black, 5),
+            (.white, 6)
+        ]
+        for (color, tag) in colors {
+            let button = NSButton()
+            button.tag = tag
+            button.bezelStyle = .shadowlessSquare
+            button.controlSize = .small
+            button.wantsLayer = true
+            button.layer?.cornerRadius = 4
+            button.layer?.backgroundColor = color.cgColor
+            button.layer?.borderWidth = 1
+            button.layer?.borderColor = NSColor.separatorColor.cgColor
+            button.target = self
+            button.action = #selector(annotationColorChanged(_:))
+            button.translatesAutoresizingMaskIntoConstraints = false
+
+            NSLayoutConstraint.activate([
+                button.widthAnchor.constraint(equalToConstant: 32),
+                button.heightAnchor.constraint(equalToConstant: 32)
+            ])
+
+            colorRow.addArrangedSubview(button)
+        }
+
+        let widthLabel = NSTextField(labelWithString: "Width")
+        widthLabel.font = .systemFont(ofSize: 12)
+        let widthSlider = NSSlider(value: 5, minValue: 1, maxValue: 24, target: self, action: #selector(annotationWidthChanged(_:)))
+        widthSlider.translatesAutoresizingMaskIntoConstraints = false
+        let widthRow = NSStackView(views: [widthLabel, widthSlider])
+        widthRow.orientation = .horizontal
+        widthRow.spacing = 8
+
+        NSLayoutConstraint.activate([
+            widthSlider.widthAnchor.constraint(equalToConstant: 190)
+        ])
+
+        let utilityRow = NSStackView()
+        utilityRow.orientation = .horizontal
+        utilityRow.spacing = 8
+
+        let undoButton = NSButton(title: "Undo", target: self, action: #selector(undoAnnotation))
+        undoButton.bezelStyle = .rounded
+        undoButton.controlSize = .small
+        let redoButton = NSButton(title: "Redo", target: self, action: #selector(redoAnnotation))
+        redoButton.bezelStyle = .rounded
+        redoButton.controlSize = .small
+        let clearButton = NSButton(title: "Clear", target: self, action: #selector(clearAnnotations))
+        clearButton.bezelStyle = .rounded
+        clearButton.controlSize = .small
+        utilityRow.addArrangedSubview(undoButton)
+        utilityRow.addArrangedSubview(redoButton)
+        utilityRow.addArrangedSubview(clearButton)
+
+        let stack = NSStackView(views: [label, toolGrid, colorRow, widthRow, utilityRow])
+        stack.orientation = .vertical
+        stack.alignment = .leading
+        stack.spacing = 8
         return stack
     }
 
@@ -218,6 +325,8 @@ extension PreviewWindowController {
         button.bezelStyle = .rounded
         button.controlSize = .small
         button.font = .systemFont(ofSize: 11, weight: .semibold)
+        button.imagePosition = .imageLeading
+        button.setButtonType(.toggle)
         return button
     }
 
